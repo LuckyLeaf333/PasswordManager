@@ -20,3 +20,5 @@ $ dune build
 $ dune exec bin/main.exe
 $ dune exec bin/gui.exe
 ```
+
+Note that the default master password is `angel`.

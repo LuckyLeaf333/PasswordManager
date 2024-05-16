@@ -1,3 +1,1178 @@
+ commit 747bfee38aa9c70709048ec086c44912d0902b9c
+Merge: 1c8527e 6a2b67a
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Thu May 16 00:57:24 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit 1c8527e4098d49c759f0c10cb60bf1fea247f4c9
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Thu May 16 00:56:49 2024 -0400
+
+    Add Test Plan
+    
+    - Added Test Plan.pdf to root directory
+    - Fixed typo in trie.ml comment
+
+commit 6a2b67a94326c0549950c0e4bd367c80943dc171
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Thu May 16 00:34:35 2024 -0400
+
+    Make Types into a module to match project requirements
+
+commit c4d94d9fa0b4fd13e73533f12f309b64bef5793f
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Thu May 16 00:08:25 2024 -0400
+
+    Add some more util tests
+
+commit d95c09baeda68c01763036f654468f5e16eda6cb
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Thu May 16 00:07:40 2024 -0400
+
+    Remove old test
+
+commit 9cffdacf5b8e375e35c2f7ac538ee861b2d951f6
+Merge: a3ec412 170e205
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 15 23:38:40 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit a3ec4125129fe51b0aefaa1c955aa6284efb2a29
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 15 23:37:34 2024 -0400
+
+    Refactor gui.ml code
+    
+    - gui.ml uses modules to improve readability and style of views
+    - Added an importable file to demo directory for use during demo
+
+commit 170e20584cb94af3f4fc5890405c70ea5e9fd2a1
+Merge: 69bb9d9 ef5d0c2  
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Wed May 15 21:41:20 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit 69bb9d938884d3f344bac782edbf18a884a5c24f
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Wed May 15 21:39:12 2024 -0400
+
+    Fixed autocomplete bugs
+
+commit ef5d0c25d98ab7020e153f3f9ff980b966624703
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 15 21:38:21 2024 -0400
+
+    Added comments
+    
+    - RI and AF for trie.ml
+    - Specification comment for Setup.mli
+
+commit 2ea425ba48e13d3f2c818bc2c1d863f21488d6f8
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 15 21:00:40 2024 -0400
+
+    Fixed findsing_view
+    
+    - findsing_view does not crash immediately
+
+commit f8ce4bdd5c4cb10c438dce7efced035a9612fc15
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Wed May 15 20:18:20 2024 -0400
+
+    Attempted adding autocomplete to gui
+
+commit a234132dff8f9515dcc6fbaf9fc218b59ecabcf6
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Wed May 15 19:48:43 2024 -0400
+
+    Fixxed buggy prompt code
+
+commit f9fef9693f24820809c4aed64a58db2d1b709590
+Merge: 8aa009f b2fe7e5
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Wed May 15 19:24:32 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit 8aa009fbad135bca6b72969e23b04f85a5d1d598
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Wed May 15 19:24:26 2024 -0400
+
+    Finished persistence testing
+
+commit b2fe7e5d426131abead77c79aec7c5668507c8fe
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 15 17:23:05 2024 -0400
+
+    Add author attribution to gui.ml
+
+commit 32e0edf431754feace89614c6454b7b3636dc5f6
+Merge: d6befa3 68f334d
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 15 17:12:32 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit d6befa32c77cd1f3f55a9a6ac8fa9de45a3d9d50
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 15 17:11:37 2024 -0400
+
+    Minor fixes
+    
+    - Author comment in main.ml
+    - Uncommented line 52 of test_Persistence
+    - Deleted comments in masterPassword.mli
+    - Added TODO for AF and RI of trie.ml
+
+commit 68f334d666baa54479cf4ed78a3013a7bf71fb83
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Wed May 15 16:04:28 2024 -0400
+
+    Cleanup bin (except for gui), refactor functions with >20LoC
+
+commit eb2d7c77fd1a9f582a3dea3e84467108690cae89
+Merge: d07c4df be77b73
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 15 15:53:46 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit d07c4df770874c95defec9bea4bf54e1bd692ee5
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 15 15:52:56 2024 -0400
+
+    Refactored some GUI code
+    
+    - Generate new password doesn't create an entire new view every time you go there from the home view.
+
+commit be77b730089df15ef06c24c335d8775a36775c24
+Merge: aafc1a8 c520153
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Wed May 15 15:00:35 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit aafc1a84c05a3929819e7c8f0c44a12e726c1e47
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Wed May 15 15:00:29 2024 -0400
+
+    Finished autocomplete testing
+
+commit c520153b91632f6024d01eccdc80b27932bf03d0
+Merge: 5e3a32a 56cdb31
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Wed May 15 14:45:54 2024 -0400
+
+    Merge branch 'main' of https://github.coecis.cornell.edu/rmg296/CS3110-FinalProject
+
+commit 5e3a32ae103692fe64fbc8deb266a69665ce8248
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Wed May 15 14:45:47 2024 -0400
+
+    Slightly decrease repetitions of MasterPassword tests in order to speed it up
+
+commit 133227ce77fd414753cc36d53b6ff8b1d20f5a5e
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Wed May 15 14:45:23 2024 -0400
+
+    Link/update OrderedMultiset tests
+
+commit 56cdb31566163abe40ab820de3b24b7601ee8f01
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 15 14:44:43 2024 -0400
+
+    Updated lincense with everyone's names
+
+commit a732569466efa7fb0eaea8c06ea676c401c01591
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Wed May 15 13:54:42 2024 -0400
+
+    Changed SHA3 256 to SHA2 256
+
+commit 307f38efa2ea85943767bd9220beb5611c944544
+Merge: 70435c7 63e1ad5
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Wed May 15 13:42:47 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit 70435c7fb41d22ed660f64e2c1a6e86490082dc5
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Wed May 15 13:42:31 2024 -0400
+
+    Replaced substring with BatString.exists
+    
+    - removed substring tests
+
+commit 63e1ad582137df20c77f48b3324d02d270536a06
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Wed May 15 13:33:29 2024 -0400
+
+    Refactor trie to use OrderedMultiset (reduces memory usage by ~6x)
+
+commit de3e145e0a87deb769191abab5ebed341c8c452e
+Merge: c01d1df 1f8cc68
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Wed May 15 10:58:35 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit 1f8cc68f076a25859cc90d264f9536e1dd4dec8c
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Tue May 14 19:33:44 2024 -0400
+
+    Moved SHA3 hash from MasterPassword to Encrypt
+    
+    - SHA3 hash is now only used as a helper function
+
+commit b489fd171fe40f7a846bdc337709a1e94d44810c
+Merge: 528c2f0 f43cd18
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Tue May 14 19:24:18 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit 528c2f01cbfb3d7e5b0d9a690ba4082387d72dcb
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Tue May 14 19:23:30 2024 -0400
+
+    Added MasterPassword tests
+    
+    - created new arbitrary that generates strings with specified length
+      range
+
+commit f43cd18b043c84d4dd908422f90211358abe8ec9
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Tue May 14 18:35:38 2024 -0400
+
+    Move loading message to health_check/check_strength
+
+commit 94a07c2bf771922b66e841cd518bd61e582cc745
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Tue May 14 18:34:17 2024 -0400
+
+    Use larger password list
+
+commit 964057a1df35e9347c93e0010c36209c96d3dd7f
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Tue May 14 17:22:07 2024 -0400
+
+    More Trie tests; achieve 100% coverage
+
+commit 189f9fa690faa774117713fcf536319b2fff6b4c
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Tue May 14 18:21:09 2024 -0400
+
+    Changed master_password_hash type to Bcrypt.hash
+    
+    - Deleted salt_hash from Encrypt
+
+commit 6b6b9c2a455081ba890ce210ed32561c4519dafa
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Tue May 14 16:49:13 2024 -0400
+
+    Fix escape string warnings in test_Serialization
+
+commit eb48f878260f5feb99e9f5679024da6a42abe32b
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Tue May 14 17:09:07 2024 -0400
+
+    Documented additional required dependencies
+
+commit ba5820e96f6e8930d64fd1262a5c68bbba5edad2
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Tue May 14 16:04:22 2024 -0400
+
+    Tweak StrengthCheck error handling
+
+commit bbc8a1e5e06be445e79d228557a26d0e8f1d37f4
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Tue May 14 16:00:35 2024 -0400
+
+    More Trie and Serialization tests
+
+commit 92ec3ce39c31afe9ed577cc4ac35c2cd15c4b677
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Tue May 14 15:30:15 2024 -0400
+
+    Fix StrengthCheck
+
+commit 460f08632b88e1ff7ef03cf30ad09141ddad116c
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Tue May 14 14:34:24 2024 -0400
+
+    Test StrengthCheck and Trie, fix errors
+
+commit c01d1dfd8b9191d9ec8a709d13cfaa79da5e7032
+Merge: 9f9b883 d0e78fd
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Tue May 14 12:16:01 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit d0e78fd96881306ada68790b5f7494e8285e10cd
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Tue May 14 00:03:02 2024 -0400
+
+    Added strength check tests to test suite
+
+commit 3c883b070adf1f3305e75533e6c9efc08b0fa6c8
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon May 13 23:55:27 2024 -0400
+
+    Make StrengthCheck asynchronous, fix tests
+
+commit 0eb2f590395e848a68484f3422b3ccfe1ab98086
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Mon May 13 22:57:54 2024 -0400
+
+    Added Trie documentation
+
+commit d324cbfe7ff1ef0174f55bb062655dcd50560031
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon May 13 22:30:23 2024 -0400
+
+    Use StrengthCheck over Autocomplete for password strength checking
+
+commit 047e36b8ca4845e18b3155005ce38d41a0accd0a
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon May 13 21:43:49 2024 -0400
+
+    Remove third-party code
+
+commit e88393a2b91ad1ed7f50dea513944c59069b1fea
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon May 13 21:42:22 2024 -0400
+
+    Add trie
+
+commit d2a2321179f2c8b57756e86e9a9fe905b6ad73d2
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon May 13 21:36:09 2024 -0400
+
+    Update list procedure to notify user if no logins are saved
+
+commit 7dc0672b70b5b0db521fea256e4b6a3cdd6ed91f
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon May 13 21:31:22 2024 -0400
+
+    Add deletion to frontend
+
+commit dda5ecd2bdacdc426814e2bbb7f09cf58c921189
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Mon May 13 19:47:35 2024 -0400
+
+    Added QCheck tests for GenPassword
+    
+    - regression testing to ensure generated passwords do not consist only
+      of the same character
+    - 50 tests!
+
+commit c10c307bfed60da5bdfce17215a2c7c3093ca6d7
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Mon May 13 19:25:52 2024 -0400
+
+    Changed GenPassword compilation unit name
+    
+    - moved user input to main.ml
+
+commit 8a699bdc9de396a3bc05f5c975bbe9818395d698
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Mon May 13 19:19:09 2024 -0400
+
+    Fixed password generation bug
+    
+    - generated passwords no longer consist of only one character
+
+commit 5541a0936bc7998d0a0c1fe961904bddb90c7802
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Mon May 13 19:09:25 2024 -0400
+
+    Refactored password generation
+    
+    - also, persistence tests are now run sequentially
+
+commit 4f145589da76c50946309ad550882e7062dc9253
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Mon May 13 18:46:11 2024 -0400
+
+    Added documentation for all compilation units
+
+commit bc01b325120a1ab4b3aa26c7d7009e5c03dfec0e
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Mon May 13 17:36:42 2024 -0400
+
+    Moved substring to Util
+    
+    - substring tests moved to test_Util.ml
+
+commit c2e2df8a87adea69914c942b140fae03785f47c1
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Mon May 13 16:32:06 2024 -0400
+
+    Added more encrypt tests
+    
+    - checks if sufficiently long entry fields are not substrings of the
+      encrypted data
+    - substring function is tested
+    - password and login arbitrary implementations are slightly modified
+    - added TestUtil documentation
+
+commit df3d00059b6f916cba20a3953696b096ffba68db
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon May 13 14:51:12 2024 -0400
+
+    Fixed password import tests
+    
+    - Rohen did this, not Sophia
+    - password import tests now run sequentially
+    - password import csv files are under a separate directory in data
+
+commit ddfdc635440c1e35ffc688277378993b6e1e9f3f
+Merge: 1e9d68e eab74e5
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Mon May 13 14:43:43 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit 1e9d68e20fe07165ab390644d8d51589700aef5e
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Mon May 13 14:42:15 2024 -0400
+
+    Added serialization tests
+    
+    - 4 more tests!!! wow!!!
+    - moved arbitrary passwords and logins to TestUtil
+
+commit eab74e5a8850a98c853fd0558588947a27864a28
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Sun May 12 20:05:14 2024 -0400
+
+    Fixed issue with deletion
+    
+    - Deletion now deletes only 1 thing instead of everything
+    - Updated gui deletion message
+
+commit 9f9b8833fc44401a0b72528749b5f63c5d4a0088
+Merge: 25657a6 814d470
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Sun May 12 20:00:21 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit 25657a6e8c5cf25e5c5cc7d6b96f62bdf182874f
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Sun May 12 19:58:13 2024 -0400
+
+    to overwrite
+
+commit 814d47007eb0be037aa65cb72c5faee1d671ab48
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Sun May 12 19:22:29 2024 -0400
+
+    Added deletion to the gui
+    
+    - Deletion does not work correctly
+
+commit 986d04f44dc7196d3e7cfb582b3f197d52aa4113
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Sun May 12 16:57:11 2024 -0400
+
+    Fixed Persistence test
+    
+    - Changed persistence to use a functor
+    - Fixed tests so that they run and pass
+    - Known isssue: import tests fail
+
+commit c7a1d036bb1616ee2ab4f947fcc7259ed94a4a80
+Merge: c030a39 26973c0
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Sat May 11 23:18:12 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit 26973c0be5461baf134eb7d8080c83384802528e
+Merge: 9c2a78c ea92b16
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat May 11 15:53:45 2024 -0400
+
+    Merge branch 'main' of https://github.coecis.cornell.edu/rmg296/CS3110-FinalProject
+
+commit 9c2a78c8e9be352e9fe4c69aa12ecd4d456fb290
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat May 11 15:53:40 2024 -0400
+
+    Add some more dummy data
+
+commit 365fc919dc87e0dfd7fa78549b218778612b185a
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat May 11 15:42:15 2024 -0400
+
+    Add search functionality
+
+commit ea92b169699d038217d0a6c7d621abb2bf546b00
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Sat May 11 14:40:35 2024 -0400
+
+    Fixed encrypt test suite
+    
+    - encrypt test suite runs sequentially
+    - if key is changed between encryption and decryption, some error should
+      be expected
+
+commit c030a398d064be523e50266bd93d3f3cc7c85b14
+Merge: 094d76c 34fdd1a
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Sat May 11 14:32:56 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit 094d76c0fe2707b01fe941c46d899ce134155198
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Sat May 11 14:32:50 2024 -0400
+
+    Changes ignore
+
+commit 34fdd1a7a24194f7f5b6d88319fffc93f0b7e543
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat May 11 13:59:47 2024 -0400
+
+    Run Encrypt tests sequentially (necessary because of mutable state w/ set_key)
+
+commit 15cb93ef0b84aba08521c512fc6afdab61a2fcb0
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat May 11 00:08:08 2024 -0400
+
+    Small text UI refinements
+
+commit c62d13e113f1caea7e676386c9a66db30b3cdca4
+Merge: 086f25a 172ccb1
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat May 11 00:06:05 2024 -0400
+
+    Merge branch 'main' of https://github.coecis.cornell.edu/rmg296/CS3110-FinalProject
+
+commit 172ccb148cb700cf452741a8258ec2cd32fcacf5
+Merge: d580684 d96fd87
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Fri May 10 23:36:38 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit d5806845da01a98a65697e6ea2ff8e79957578c6
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Fri May 10 23:35:25 2024 -0400
+
+    Added Encrypt randomized tests
+    
+    - checks that decrypt is a left inverse of encrypt
+    - tests need to be run sequentially but we need to figure that out
+      :skull:
+
+commit 086f25a95f5b76236344f28ce4b8670a68910496
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Fri May 10 23:13:19 2024 -0400
+
+    Report closest command to mistyped commands
+
+commit d96fd87e1e029045d227cf1633b9950c04edd062
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Fri May 10 20:24:00 2024 -0400
+
+    More main.ml cleanup
+
+commit 81b8b9ee1d7b0c26047b953c5d03330ef3ee88b8
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Fri May 10 19:36:12 2024 -0400
+
+    Refactor main_loop to use prompt_commands
+
+commit 70671d8024852cc975bff917ca3397ffe5987b58
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Fri May 10 16:39:31 2024 -0400
+
+    Add some dummy data
+
+commit 9fcb1010399ccdb2ffbc316182a31fc5ca71610d
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Fri May 10 16:15:28 2024 -0400
+
+    Streamline promptCommands, refine API
+
+commit c1c21295b5372e4900c3d1913a75352b2d508ecf
+Merge: 78af79d faf5b23
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Fri May 10 00:21:31 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit 78af79d286d93389629205da8a1e632ea38f441c
+Author: Sophia Song <ss3579@cornell.edu>
+Date:   Fri May 10 00:09:59 2024 -0400
+
+    Implemented encryption of passwords and logins
+    
+    - currently only AES256 is supported
+    - added cryptokit dependency
+
+commit faf5b2300236419f9dfbe92b8c328a7c179cd1f1
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Thu May 9 23:03:16 2024 -0400
+
+    Change gui.ml to be compatible after merge
+    
+    - check_master changed to check_master_pwd
+    - Add crytokit and safepass to INSTALL.md
+
+commit 15ad7dcfb38a33dfdf272630fd2e0910bd72e76e
+Merge: fda9911 ebceea3
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Thu May 9 22:57:03 2024 -0400
+
+    Merge branch 'gui'
+
+commit ebceea3da986a4dbdd0bf6e163e6671a054d7089
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Thu May 9 22:52:54 2024 -0400
+
+    Add documentation to gui.ml
+
+commit 077569cfe08c383610afcb9941a481eabc21e50f
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Thu May 9 18:36:48 2024 -0400
+
+    Added options to generating passwords
+    
+    - User can enter the password length
+    - User can choose whether to include special characters
+
+commit fda9911eaeb58138d456ed380c6aa9424bb078db
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Thu May 9 18:26:16 2024 -0400
+
+    Buggy test_persistence
+
+commit 4253fbbc5b8784b362b3336c332ea54bb815b7d1
+Merge: 70ea1a3 b20fa3c
+Author: Meghana <lk496@cornell.edu>
+Date:   Thu May 9 17:39:24 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit 70ea1a3296f253b4dcc64547ffe7ca66717d6624
+Author: Meghana <lk496@cornell.edu>
+Date:   Thu May 9 17:29:03 2024 -0400
+
+    final salted version of masterpwd implemented
+
+commit b20fa3cc359403075acef935c700cf67168d9268
+Merge: 3f6d37a 93f6624
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Thu May 9 17:28:32 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit 3f6d37a1d6a5d371ac33be16b32a3adb6863c934
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Thu May 9 17:28:10 2024 -0400
+
+    Finished autocomplete testing
+
+commit 5ed406493bfe04e6794cb1340c278a9803df6d3b
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Thu May 9 17:26:54 2024 -0400
+
+    Added exporting passwords to gui
+    
+    - Export passwords button transitions to the export view
+
+commit 93f6624cb1f6b3b17f5f18945b039749e68c9457
+Author: Meghana <lk496@cornell.edu>
+Date:   Thu May 9 15:20:04 2024 -0400
+
+    masterpwd implemented successfully
+
+commit dc833a696b0697badc878c9b91a0a5d889b9bf35
+Author: Meghana <lk496@cornell.edu>
+Date:   Thu May 9 13:41:02 2024 -0400
+
+    masterpwd initial impl
+
+commit 3348247d7bffd845ffa25b1fb0684f026331e8dc
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Thu May 9 11:54:50 2024 -0400
+
+    Added import view and generate password view
+    
+    - Home page buttons for import and generating passwords transition to corresponding views.
+
+commit f300d1ba22d2bb95fdbd1b53d349f170e335f274
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Thu May 9 03:30:15 2024 -0400
+
+    Add documentation to list view functions
+
+commit 8c5ad286602445d7839da4de52b9e71db3ba7f7f
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Thu May 9 03:22:32 2024 -0400
+
+    Fixed bug so that list view updates
+    
+    - Before, list would not update with newly added passwords
+
+commit 82dd466ad69a0df49f71afdf28bb56c5d6feb421
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Thu May 9 02:59:36 2024 -0400
+
+    Change handling of scroll bar in list view
+
+commit 2bfe1f6d69ddc72050c539b1f9440e7e4f3a5729
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Thu May 9 01:29:52 2024 -0400
+
+    Add set master password view
+    
+    - Gui can change the master password
+
+commit ee4af38b897fa19f1753ce7deb85e36a22960ce0
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 8 23:13:26 2024 -0400
+
+    Gui can add logins
+    
+    - Add help message is always displayed on add view
+
+commit bfdc78e1dbe74e791906c56f2b8e0146a7f88473
+Merge: 1e0fc36 af37e34
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 8 22:41:01 2024 -0400
+
+    Merge branch 'main' into gui
+
+commit 1e0fc36d1e11ee1649cda5d47d112d0dcefebb3e
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 8 22:36:08 2024 -0400
+
+    Add list view
+    
+    - List button on home transitions to list view
+    - Add view has cancel button
+
+commit af37e34b11670d9bb353202963296dd8baf7f9e8
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sun May 5 20:09:06 2024 -0400
+
+    Add promptCommands, remove logged_in_loop
+
+commit d98be524639706b9423957f250b91e2b7ff46e8a
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sun May 5 19:18:23 2024 -0400
+
+    Update vscode tasks to run cli version by default
+
+commit 7e29abe3d4f37cbedf133e2addbd2799f6c96b56
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Sat May 4 21:31:05 2024 -0400
+
+    Finished test-Autocomplete.ml
+
+commit 068f3f048ffbec407a234b4c291e1a3e14ce52fe
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Sat May 4 18:37:27 2024 -0400
+
+    Revised testing - gen_password works
+
+commit 950dfbba8725adf126949e79bfcf2ba91b24eea2
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Sat May 4 18:03:47 2024 -0400
+
+    Added test-GenPassword.ml
+
+commit d765944e503c681b6b56c720930c5840cb1e19b1
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Thu May 2 17:40:20 2024 -0400
+
+    Changed findsing
+
+commit 86fbf1ff4dd627dc6034b9ee1974c674a12ddab9
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Thu May 2 15:14:12 2024 -0400
+
+    Added functionality to check health of existing passwords or login info
+
+commit 58f9150592355ad69a85a2b63aad18a04299910f
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Thu May 2 14:02:11 2024 -0400
+
+    Forgot to add threading to the timer
+
+commit b357651ece6082ef6c198c70467ab8866f176d82
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Thu May 2 13:46:26 2024 -0400
+
+    Decided to add timer functionality
+
+commit eba6da0203f15008f3c65760f85c0ef94a938586
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Thu May 2 13:38:57 2024 -0400
+
+    Fixed some documentation, shifted password gen functionality to gen_password module, and added strength checking functinoality
+
+commit 4421cef57c48a266052ca0e38c45122e7781bf9c
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 1 14:01:24 2024 -0400
+
+    Back button transitions to home view
+
+commit 76ccd85dd5748e4cb06118b38a2bfe952b8ff34a
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 1 11:45:53 2024 -0400
+
+    Implemented Gui password adding feature
+    
+    - Gui has add password view
+    - Gui interfaces with persistence to receive input and store passwords
+    - Gui has a action complete view that has a button that goes back to the home view
+
+commit 42d3ac73296508f23eec5e9e51c32dd7fb90ef0f
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Wed May 1 11:26:19 2024 -0400
+
+    Added documentation to gui.ml
+
+commit a9829ca3663d6b62f87cd34f44fd34906d41a28e
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Tue Apr 30 23:47:06 2024 -0400
+
+    Added Add Password view
+    
+    - Added button transition from home view to add view
+
+commit d9a4829b0c29931a7388697a8cf5a579139e85a5
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Tue Apr 30 20:49:46 2024 -0400
+
+    Made button text larger
+    
+    - Made code look nicer by adding a create_btn function
+
+commit d4393563b1c0ac75b1b9b4e0025674b7f8fb1e3c
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Tue Apr 30 20:36:22 2024 -0400
+
+    Created Login and Home views
+    
+    - Gui allows the user to log in
+    - Login and Home views created
+
+commit 0720e78af4a01291295c3d26b4835a98df7a57f1
+Merge: 5d7b5a4 5da27c4
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon Apr 29 09:23:52 2024 -0400
+
+    Merge pull request #5 from rmg296/bugfix/persistence-restructuring
+    
+    Restructure our persistence format
+
+commit 5da27c4572d73ed71f232ded48e27c2e52537c75
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sun Apr 28 17:46:45 2024 -0400
+
+    Add ability to add logins, update dummy data
+
+commit eaf292934a23f09ad8c1fe6a33d43cb9d19a0934
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sun Apr 28 17:38:05 2024 -0400
+
+    Adapt delete_encryptable_by_name to work with new format
+
+commit 2b2f609751037281ed242d36082fe5a21e229861
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sun Apr 28 17:26:13 2024 -0400
+
+    Remove pwd_file_path
+
+commit 2fd61b17007afad55c759a8a06213230216eb9c7
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sun Apr 28 17:25:40 2024 -0400
+
+    Document new format of encryptables file and remove .json extension
+
+commit eed9d24f5e4e08e3ea386d2ef8914303cdfea98f
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sun Apr 28 16:48:48 2024 -0400
+
+    Add some fake data
+
+commit 972aa04c99148d3134fc050479ceda5159b3dd78
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sun Apr 28 16:48:43 2024 -0400
+
+    Fix writing of passwords
+
+commit 18cbf0302c0fc524c630e4b944cd915f7689855e
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sun Apr 28 16:40:37 2024 -0400
+
+    Fix fake encryption
+
+commit 996800e60bc8a27f5d7171e8cf4389e0b6f0c6b8
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sun Apr 28 16:21:58 2024 -0400
+
+    Fix read_encryptable and write_encryptable and restructure project
+
+commit e1b1741539271a25b9fb231ad80bfff2a6b2f933
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat Apr 27 19:42:48 2024 -0400
+
+    Add name field to EncryptedString
+
+commit a19a793ad285f75fd16ddc42143652d8a6a2d25f
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat Apr 27 19:08:34 2024 -0400
+
+    Add EncryptedString to Encrypt
+
+commit 53df942b36adbc83411ab05388a639a5ff6c4acb
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat Apr 27 17:36:21 2024 -0400
+
+    Add JSON schema and document intended persistence functionality
+
+commit 5d7b5a4182e3dd7615eac6735c0f951d076777e0
+Merge: c8960b5 4f93881
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Sat Apr 27 16:31:53 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:rmg296/CS3110-FinalProject
+
+commit c8960b5d299313b58d4fb74dda0d6b78e17b7dbf
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Sat Apr 27 16:29:13 2024 -0400
+
+    Added basic gui
+    
+    -Changed bin/dune to build 2 .exe files
+    -Changed install.md to include bogue
+
+commit 46792c8af83ea0ba795b5fbaccd5f1e70887f4e0
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat Apr 27 13:59:23 2024 -0400
+
+    Reshuffle project, introduce directories
+
+commit d5d187a9fb384192f8566a231c799b74be774674
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Fri Apr 26 17:19:21 2024 -0400
+
+    Add autocomplete.mli
+
+commit b647a1db35842ae9f092e65998946fdef48b5e08
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Fri Apr 26 17:16:49 2024 -0400
+
+    Clean up Persistence
+
+commit 4f938811baaba8a42fed0fee0fedadd85bd7d97b
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Fri Apr 26 16:38:16 2024 -0400
+
+    Fix serialization (now uses JSON)
+
+commit 92cf0fa68c88e797757ee64d22b5caba3133ba41
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Fri Apr 26 12:14:48 2024 -0400
+
+    Updated documentation
+    
+    - Updated documentation in encrypt, masterPassword, types
+    - Changed signature of decrypt_password and decrypt_login
+    - Changed implementation of encrypt.decrypt_password and persistence.read_all_encryptable
+
+commit e3776f0caa66a942ca6873093b35bfe42d8f7281
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Fri Apr 26 11:09:21 2024 -0400
+
+    Add edit distance and memoization
+
+commit 6aca34adba82eb27c93a3083a89a364c04c3533a
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Thu Apr 25 23:55:23 2024 -0400
+
+    Added gen-password functionality, changed to_string functionality
+
+commit 3198018ded21b95b57e037766abc04797145f657
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Tue Apr 23 20:16:23 2024 -0400
+
+    Finished autocomplete stuff
+
+commit 5289cce283794f2b622c266ec5c4990a4d17f916
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Tue Apr 23 19:45:28 2024 -0400
+
+    Added new findsing command - Provided main.ml code, will implement persistence later
+
+commit 64ef26a7b8092756b08357f177a1f50963c0c4cf
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Tue Apr 23 14:26:06 2024 -0400
+
+    Test util
+
+commit eb1fa8605ae981fcddd1cdb5e5a573b8e9ddd40e
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon Apr 22 18:04:32 2024 -0400
+
+    Fix doc comments in types.ml for real this time
+
+commit f91405b720ac4da80670ff86eee99d57c94b0a9f
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon Apr 22 18:01:22 2024 -0400
+
+    Improve doc comments in types.ml
+
+commit d9ad016dab3477feb68782487feec51e94ff8a5a
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon Apr 22 17:13:48 2024 -0400
+
+    Update INSTALL.md with updated dependencies
+
+commit 08a2b8b5e95cfb7b494830aabdd5b808bc8fe0bd
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon Apr 22 15:11:03 2024 -0400
+
+    Fix missing recursive call in logged_in_loop
+
+commit 0cf69eddb726f0e6c6306bae0c21774de9b32e2c
+Merge: b1a8dec 6c8d94c
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon Apr 22 15:06:01 2024 -0400
+
+    Merge pull request #2 from rmg296/feature/password-import
+    
+    Implement password import
+
+commit 6c8d94c99d13c90ea8ac913749cdd08f2cf47e1d
+Merge: 32086d4 b1a8dec
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon Apr 22 15:05:14 2024 -0400
+
+    Merge remote-tracking branch 'origin/main' into feature/password-import
+
+commit 32086d48d4134257a4da654b8eac2cfefdfe5c2f
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon Apr 22 14:57:23 2024 -0400
+
+    Add import/export to UI
+
+commit 70c61d7241ce3cc3929951684ecb907eaee33ae1
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon Apr 22 14:41:56 2024 -0400
+
+    Allow importing proprietary format
+
+commit fc210c2aeea9a1e809ec56f16f26afe27caaa1f9
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Mon Apr 22 14:29:28 2024 -0400
+
+    Implement and test export
+
+commit b1a8dec381aa1e6c7b3baa01ceaefb7c114b7235
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Sun Apr 21 18:05:44 2024 -0400
+
+    Removed bugs
+
+commit 244181cf85b660e755599dc4e92d285d80392302
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Sun Apr 21 12:54:22 2024 -0400
+
+    Tweaks
+
+commit 942225a859dee43abfee387042d029ed3bf803b5
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Sun Apr 21 12:07:58 2024 -0400
+
+    Revised per previous type confusion - NOTE NO LOGIN FUNCTOINALITY IS DONE
+
+commit b2fbd075989b3ab10b2b0018fda2bc24c4a09613
+Author: Rishi Shah <rrs244@cornell.edu>
+Date:   Sat Apr 20 20:26:18 2024 -0400
+
+    Modified persistence file  - Added comments - Changed read_all_encryptable and other functions as well as functionality
+
+commit 57d7228e2fa62cb14da20b4a0910adb18388e659
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat Apr 20 19:41:15 2024 -0400
+
+    Add more import tests
+
+commit 1e2def9b13624fb5f028654484b7119bbc2eccc3
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat Apr 20 18:51:36 2024 -0400
+
+    Streamline tests, make them use all test CSVs
+
+commit 38d66d178e5c237a4fcacc089188fb5709359738
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat Apr 20 18:44:10 2024 -0400
+
+    First implementation of import
+
+commit 9b2016111a7d6ca5fea41b41e24a7a26c25174c0
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat Apr 20 16:30:17 2024 -0400
+
+    Add some tests and skeleton code for password import
+
+commit d3326422f4239fe08184f5518c04fc4ea7eee137
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat Apr 20 14:59:10 2024 -0400
+
+    Fix master_password_hash type
+
+commit ae9a47f4f635aa0931df7a7aa835420af8f347ac
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Thu Apr 18 14:18:53 2024 -0400
+
+    Change types a bit for clarity
+
+commit 80378ab053f756ae5394bb8e263574f3b3602604
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Wed Apr 17 15:59:27 2024 -0400
+
+    Add testing infrastructure to prepare for password import tests
+
+commit 001fd419c5fa3af6fa84338f0546c6b9d0520887
+Author: Rohen Giralt <rmg296@cornell.edu>
+Date:   Sat Apr 13 17:13:32 2024 -0400
+
+    Prepare for adding Logins
+
+commit b511f4487ff6465c8bca9326127152e07558b139
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Mon Apr 15 01:27:25 2024 -0400
+
+    Prevent input display when adding passwords
+
+commit 6843b432500655fc954e62c8edc20dc47c5a8360
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Mon Apr 15 01:26:24 2024 -0400
+
+    Prevent input display when typing passwords
+
+commit c0cba17d1eeded8e32ed1e41491383d68a44512e
+Author: Zhijia Ye <zy424@cornell.edu>
+Date:   Mon Apr 15 00:55:39 2024 -0400
+
+    Added help message
+    
+    - Set data file permissions so that only the user can read/write.
+
 commit 6679c13ad1773259ad93df839468caaa1d42b739
 Author: Zhijia Ye <zy424@cornell.edu>
 Date:   Thu Mar 28 19:07:29 2024 -0400

@@ -1,0 +1,4 @@
+Our program contains two large data files (~15M lines of text), so running `cloc .` is very slow.
+In our experience, it takes a couple of minutes to fully run.
+Instead, we recommend running `cloc lib/ bin/ test/`, since all of our ml and mli files are in those directories.
+This command should return near-instantaneously
